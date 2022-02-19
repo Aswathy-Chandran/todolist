@@ -1,6 +1,6 @@
 
 :root{
-  --themeColor:linear-gradient(to right, #4e4eec, #636366);
+  --themeColor:linear-gradient(to right, #9b3381, #641db6);
   
   
 }
@@ -80,7 +80,7 @@ input[type='text'] {
   display: block;
   border-radius: 1rem;
   outline: none;
-  border: 1px solid #43cea2;
+  border: 1px solid #0e4937;
 }
 input[type='password'] {
   padding: 1rem;
@@ -90,7 +90,7 @@ input[type='password'] {
   display: block;
   border-radius: 1rem;
   outline: none;
-  border: 1px solid #43cea2;
+  border: 1px solid #5e7e74;
 }
 
 
