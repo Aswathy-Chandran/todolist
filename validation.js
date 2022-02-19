@@ -5,17 +5,17 @@ const errorFlags={
 }
 const validate=(el,authValue)=>{
     let flagName=el+"ErrFlag";
-    if($(#${el}).val()===authValue){
+    if($(`#${el}`).val()===authValue){
         errorFlags[flagName]=false;
         const msg='';
-        $(#${el}Error).html(msg);
-        $(#${el}Error).addClass('hidden');
+        $(`#${el}Error`).html(msg);
+        $(`#${el}Error`).addClass('hidden');
     }
     else{
         errorFlags[flagName]=true;
-        const msg=Invalid  ${el} ;
-        $(#${el}Error).html(msg);
-        $(#${el}Error).removeClass('hidden');
+        const msg=`Invalid  ${el} `;
+        $(`#${el}Error`).html(msg);
+        $(`#${el}Error`).removeClass('hidden');
     }
 
 }
